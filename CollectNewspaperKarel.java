@@ -26,7 +26,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 		}
 		/*move();
 		*move();
-		*/move();
+		move();*/
 		turnRight();
 		move();
 		turnRight();
