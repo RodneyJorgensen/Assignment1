@@ -21,6 +21,7 @@ public class StoneMasonKarel extends SuperKarel {
 			move();
 			}
 		turnRight();
+		move();
 			while (leftIsClear()) {
 				move();
 			}
