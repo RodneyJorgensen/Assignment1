@@ -19,6 +19,9 @@ public class StoneMasonKarel extends SuperKarel {
 					putBeeper();
 				}
 			move();
+			if (noBeepersPresent()) {
+				putBeeper();
+			}
 			}
 		turnRight();
 		move();
@@ -31,6 +34,9 @@ public class StoneMasonKarel extends SuperKarel {
 				putBeeper();
 			}
 			move();
+			if (noBeepersPresent()) {
+				putBeeper();
+			}
 		}
 		
 	}
