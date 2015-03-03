@@ -21,7 +21,6 @@ public class StoneMasonKarel extends SuperKarel {
 					}
 					move();
 					}
-				}
 				turnAround();
 					while (frontIsClear()) {
 						move();
@@ -35,7 +34,9 @@ public class StoneMasonKarel extends SuperKarel {
 				}
 			turnLeft();
 		}
-			
+	
+	}
+	
 }
 	
 
