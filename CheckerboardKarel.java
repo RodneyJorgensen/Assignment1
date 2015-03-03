@@ -24,6 +24,7 @@ public class CheckerboardKarel extends SuperKarel {
 			if (frontIsClear ()) {
 				putBeeper();
 				move();
+				move();
 				putBeeper();
 			}
 			
@@ -36,6 +37,7 @@ public class CheckerboardKarel extends SuperKarel {
 		while (frontIsClear()) {
 			if (frontIsClear ()) {
 				putBeeper();
+				move();
 				move();
 				putBeeper();
 			}
