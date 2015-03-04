@@ -21,11 +21,10 @@ public class CheckerboardKarel extends SuperKarel {
 	}
 	private void oddChecker() {
 		while (frontIsClear()) {
-			if (frontIsClear ()) {
 				putBeeper();
 				move();
 				move();
-			}
+			
 			
 		}
 		turnLeft();
