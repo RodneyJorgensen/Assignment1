@@ -16,8 +16,10 @@ public class CheckerboardKarel extends SuperKarel {
 	}
 	
 	private void checker() {
+		while (frontIsClear()) {
 		oddChecker();
 		evenChecker();
+		}
 	}
 	private void oddChecker() {
 		while (frontIsClear()) {
