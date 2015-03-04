@@ -35,15 +35,16 @@ public class CheckerboardKarel extends SuperKarel {
 	}
 	private void evenChecker() {
 		while (frontIsClear()) {
-			if (frontIsClear ()) {
-				putBeeper();
-				move();
-				move();
+			putBeeper();
+			move();
+			if (frontIsClear()){
+			move();
 			}
-			
-		}
-		turnRight();
-		move();
-		turnRight();
-	}	
+			}
+			if (frontIsBlocked()) {
+				turnRight();
+				move();
+				turnRight();
+			}
+		}	
 }
