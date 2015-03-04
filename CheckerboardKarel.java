@@ -26,11 +26,11 @@ public class CheckerboardKarel extends SuperKarel {
 				move();
 				move();
 			}
+			turnLeft();
+			move();
+			turnLeft();
 			
 		}
-		turnLeft();
-		move();
-		turnLeft();
 	}
 	private void evenChecker() {
 		while (frontIsClear()) {
@@ -38,7 +38,6 @@ public class CheckerboardKarel extends SuperKarel {
 				putBeeper();
 				move();
 				move();
-				putBeeper();
 			}
 			
 		}
