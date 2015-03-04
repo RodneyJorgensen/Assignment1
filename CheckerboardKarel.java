@@ -27,6 +27,7 @@ public class CheckerboardKarel extends SuperKarel {
 		move();
 		if (frontIsClear()){
 		move();
+		putBeeper();
 		}
 		}
 		if (frontIsBlocked()) {
@@ -43,6 +44,7 @@ public class CheckerboardKarel extends SuperKarel {
 			move();
 			if (frontIsClear()){
 			move();
+			putBeeper();
 			}
 			}
 			if (frontIsBlocked()) {
