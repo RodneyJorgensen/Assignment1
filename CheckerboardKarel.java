@@ -31,8 +31,10 @@ public class CheckerboardKarel extends SuperKarel {
 		}
 		if (frontIsBlocked()) {
 			turnLeft();
+			if (frontIsClear()) {
 			move();
 			turnLeft();
+		}
 		}
 	}
 	private void evenChecker() {
