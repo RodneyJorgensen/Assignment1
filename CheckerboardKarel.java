@@ -27,9 +27,15 @@ public class CheckerboardKarel extends SuperKarel {
 		move();
 		}
 		if (frontIsBlocked()) {
+			if (facingEast()) {
 			turnLeft();
 			move();
 			turnLeft();
+		}
+		} else {
+			turnRight();
+			move();
+			turnRight();
 		}
 		}
 	}
