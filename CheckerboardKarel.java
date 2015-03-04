@@ -20,16 +20,14 @@ public class CheckerboardKarel extends SuperKarel {
 		evenChecker();
 	}
 	private void oddChecker() {
-		while (frontIsClear()) {
-				putBeeper();
-				move();
-				move();
-			
-			
-		}
-		turnLeft();
+		putBeeper();
 		move();
-		turnLeft();
+		move();
+		if (frontIsBlocked()) {
+			turnLeft();
+			move();
+			turnLeft();
+		}
 	}
 	private void evenChecker() {
 		while (frontIsClear()) {
