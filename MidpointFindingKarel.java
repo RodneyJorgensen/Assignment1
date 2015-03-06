@@ -38,9 +38,8 @@ public class MidpointFindingKarel extends SuperKarel {
 				if (frontIsClear()) {
 					move();
 				}
-				pickBeeper();
-				turnAround();
 			}
-		
+			pickBeeper();
+			turnAround();
 	}
 }
