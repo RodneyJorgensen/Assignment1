@@ -42,7 +42,6 @@ public class MidpointFindingKarel extends SuperKarel {
 			move();
 		}
 		pickBeeper();
-		move();
 	}
 	
 	private void headWest() {
@@ -57,7 +56,6 @@ public class MidpointFindingKarel extends SuperKarel {
 			move();
 		}
 		pickBeeper();
-		move();
 	}
 	private void headEast() {
 		while (frontIsClear()) {	
